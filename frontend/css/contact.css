@@ -1,0 +1,95 @@
+/* css/contact.css */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    padding: 0 var(--container-padding);
+}
+
+.contact-info h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    margin-bottom: 3rem;
+}
+
+.info-item {
+    margin-bottom: 1.5rem;
+}
+.info-item h4 {
+    margin-bottom: 0.5rem;
+    color: #aaa;
+    font-weight: 400;
+}
+.info-item span {
+    font-size: 1.1rem;
+}
+
+.contact-socials {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.contact-socials img { width: 32px; }
+
+/* Contact Form */
+.contact-form-wrapper {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border-radius: var(--border-radius);
+    padding: 2.5rem;
+    overflow: hidden; /* To contain the banner at the bottom */
+}
+
+.contact-form-wrapper h3 {
+    font-size: 1.5rem;
+}
+.contact-form-wrapper p {
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    font-family: var(--font-family);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-bottom-color: #000;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #111;
+    color: var(--text-color);
+    border: none;
+    padding: 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.form-banner {
+    height: 150px;
+    margin: 2.5rem -2.5rem -2.5rem -2.5rem; /* Extends to edges */
+    background: url(assets/images/home-banner.jpg) center/cover;
+}

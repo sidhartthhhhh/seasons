@@ -1,0 +1,38 @@
+/* css/monarch.css */
+.monarch-main {
+    text-align: center;
+    padding: var(--container-padding);
+    background-color: #0c0a24; /* Deep blue/purple */
+    border-radius: var(--border-radius);
+}
+
+.monarch-logo {
+    /* You would style your SVG/image logo here */
+    margin-bottom: 2rem;
+}
+
+.monarch-main h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.monarch-main p {
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.monarch-main b {
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.check-eligibility-btn {
+    border: 1px solid var(--text-color);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    display: inline-block;
+}

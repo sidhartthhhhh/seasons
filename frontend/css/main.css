@@ -1,0 +1,57 @@
+/* css/main.css */
+
+/* Google Font Import (Example: Inter) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+/* CSS Variables for easy theme management */
+:root {
+    --background-color: #000000;
+    --text-color: #FFFFFF;
+    --border-color: #444444;
+    --container-padding: 4rem;
+    --border-radius: 20px;
+    --font-family: 'Inter', sans-serif;
+}
+
+/* General Reset and Body Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    padding: 2rem;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+/* Main content wrapper with border */
+.main-wrapper {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    min-height: calc(100vh - 4rem); /* Full viewport height minus body padding */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1; /* Ensures the main content takes up available space */
+}

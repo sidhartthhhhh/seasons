@@ -1,0 +1,45 @@
+/* css/bespoke.css */
+
+.bespoke-main {
+    text-align: center;
+    padding: var(--container-padding) 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bespoke-main h1 {
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #8B5CF6, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.subtitle {
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    font-size: 1.1rem;
+}
+
+.get-yours-btn {
+    border: 1px solid var(--border-color);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    display: inline-block;
+}
+
+.bespoke-banner {
+    width: 100%;
+    height: 300px;
+    border-radius: var(--border-radius);
+    background: linear-gradient(to right, #F97316, #1D4ED8, #7C3AED);
+}
